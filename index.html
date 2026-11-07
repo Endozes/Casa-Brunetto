@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🌿%3C/text%3E%3C/svg%3E">
+<title>Casa Brunetto | Artesãos da Beleza · Bombinhas/SC</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=Jost:wght@300;400&display=swap" rel="stylesheet">
+<style>
+:root{--dark:#14322a;--green:#1f5b4b;--pale:#f3f6f1;--pale2:#e3ebe1;--ink:#1c2a22;--muted:#5a6b61;--line:#cbd7ca;--terra:#a4573a;color-scheme:light}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}
+body{margin:0;background:var(--pale);color:var(--ink);font:300 1.05rem/1.8 Jost,system-ui,sans-serif}
+h1,h2,h3{font-family:'Cormorant Garamond',Georgia,serif;font-weight:300;line-height:1.02;margin:0;letter-spacing:-.01em}
+i{color:var(--terra)}
+.w{max-width:1240px;margin:0 auto;padding:0 48px}.sec{padding:160px 0}
+.lbl{font-size:.9rem;letter-spacing:.14em;text-transform:uppercase;color:var(--terra);margin-bottom:22px}
+.btn{display:inline-block;background:var(--green);color:#fff;border:1px solid var(--green);padding:19px 40px;font:400 1rem Jost,sans-serif;text-decoration:none;border-radius:999px;cursor:pointer;transition:.25s}
+.btn:hover{background:var(--dark)}.btn.o{background:transparent;color:var(--green)}.btn.o:hover{background:var(--green);color:#fff}
+a:focus-visible,.btn:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--terra);outline-offset:3px}
+header{position:sticky;top:0;z-index:20;background:rgba(243,246,241,.93);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);padding-top:env(safe-area-inset-top,0px)}
+header .w{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;height:92px}
+.l,.r{display:flex;gap:40px;font-size:.95rem}.r{justify-content:flex-end}header a{color:var(--ink);text-decoration:none}
+.brand{display:flex;align-items:center;gap:14px;font:400 1.55rem/1 'Cormorant Garamond',serif}.brand img{width:46px;height:46px;border-radius:8px}
+@media(max-width:900px){.l a,.r a:not(.btn){display:none}header .w{grid-template-columns:1fr auto;height:76px}.brand span{display:none}}
+.hero{text-align:center;padding:120px 0 0}.hero h1{font-size:clamp(3.2rem,8.2vw,7.4rem);color:var(--dark);max-width:1050px;margin:0 auto 40px}
+.hero p{max-width:560px;margin:0 auto 52px;color:var(--muted);font-size:1.15rem}.hero .ph{margin-top:120px;height:min(78vh,720px);overflow:hidden;background:#d8dedb}.hero .ph img{width:100%;height:100%;object-fit:cover;object-position:50% 35%;display:block}
+.band{background:var(--dark);color:#fff;text-align:center;padding:150px 0}.band h2{font-size:clamp(2.2rem,5vw,4.2rem);max-width:980px;margin:0 auto}.band i{color:#f0bfa6}
+.about .w{display:grid;grid-template-columns:5fr 6fr;gap:130px;align-items:center}.about .pic{aspect-ratio:3/4;overflow:hidden;border-radius:999px 999px 0 0}.about img{width:100%;height:100%;object-fit:cover}
+.about h2,.work h2,.rev h2,.book h2,.loc h2{font-size:clamp(2.5rem,4.8vw,4rem);margin-bottom:36px;color:var(--dark)}.about p{margin:0 0 28px;color:var(--muted);font-size:1.12rem}
+.srv{background:var(--pale2)}.srv h2{margin-bottom:80px;font-size:clamp(2.5rem,4.8vw,4rem);color:var(--dark)}
+.row{display:grid;grid-template-columns:90px 1.1fr 1.4fr auto;gap:40px;align-items:center;padding:56px 0;border-top:1px solid var(--line);transition:.25s}.row:last-of-type{border-bottom:1px solid var(--line)}
+.row:hover{padding-left:24px}.row b{font:italic 300 1.6rem 'Cormorant Garamond',serif;color:var(--terra)}.row h3{font-size:clamp(1.9rem,3.2vw,2.8rem);color:var(--dark)}.row p{margin:0;color:var(--muted)}.row a{color:var(--green);text-decoration:none;border-bottom:1px solid var(--green);padding-bottom:3px}
+.work .w{display:grid;grid-template-columns:1fr 1fr 1fr;gap:36px;align-items:end}.work .t{grid-column:1/-1;max-width:640px;margin-bottom:60px}.work .t p{color:var(--muted);margin:0 0 36px;font-size:1.12rem}
+.work img,.work video{width:100%;display:block;object-fit:cover;aspect-ratio:3/4.4;background:var(--pale2)}.work .a{border-radius:999px 999px 0 0}.work .b{margin-bottom:90px}
+.rev{background:var(--pale2)}.rg{display:grid;grid-template-columns:1fr 1fr;gap:90px 110px;margin-top:80px}.rg figure{margin:0}.st{color:var(--terra);letter-spacing:.25em;margin-bottom:14px}
+.rg p{font:300 clamp(1.5rem,2.3vw,2rem)/1.35 'Cormorant Garamond',serif;margin:0 0 22px}.rg b{font-weight:400;color:var(--muted);font-size:.95rem}.rg .big{grid-column:1/-1}.rg .big p{font-size:clamp(2rem,3.8vw,3.2rem);max-width:980px}
+.book{background:var(--dark);color:#fff}.book .w{display:grid;grid-template-columns:1fr 1fr;gap:130px;align-items:start}.book h2{color:#fff}.book .s{color:#b9cabc}
+form{display:grid;gap:40px}label.f{display:block;font-size:.9rem;margin-bottom:6px;color:#d3e0d5}
+input[type=text],select{width:100%;font:300 1.1rem Jost,sans-serif;color:#fff;background:transparent;border:0;border-bottom:1px solid #9bb09e;padding:16px 2px;border-radius:0}select option{color:#1c2a22}
+input.err{border-color:#f0a0a8}.msg{font-size:.85rem;color:#f0a0a8;min-height:1em}
+.pl{display:flex;gap:12px;flex-wrap:wrap}.pl input{position:absolute;opacity:0}.pl span{display:block;padding:11px 26px;border:1px solid #9bb09e;border-radius:999px;cursor:pointer}.pl input:checked+span{background:#fff;color:var(--dark);border-color:#fff}.pl input:focus-visible+span{outline:2px solid #fff;outline-offset:2px}
+.book .btn{background:#fff;color:var(--dark);border-color:#fff}.book .btn:hover{background:#9bb09e;border-color:#9bb09e}.ok{display:none}.ok h3{font-size:2.6rem;margin-bottom:14px}
+.loc .w{display:grid;grid-template-columns:1fr 1fr;gap:130px;align-items:center}.loc p{color:var(--muted);margin:0 0 26px}.loc a:not(.btn){color:var(--terra)}.loc .c{display:flex;gap:14px;flex-wrap:wrap;margin-top:40px}.loc .pic{aspect-ratio:4/5;overflow:hidden}.loc img{width:100%;height:100%;object-fit:cover}
+footer{background:var(--dark);color:#b9cabc;text-align:center;padding:90px 24px 100px;font-size:.9rem}footer img{width:68px;height:68px;border-radius:10px;margin-bottom:16px}
+.fab{position:fixed;right:20px;bottom:calc(20px + env(safe-area-inset-bottom,0px));width:56px;height:56px;border-radius:50%;background:var(--green);display:grid;place-items:center;box-shadow:0 8px 24px rgba(0,0,0,.3);z-index:30;border:2px solid #fff}.fab.ig{bottom:calc(88px + env(safe-area-inset-bottom,0px));background:var(--terra)}
+.fab svg{width:26px;height:26px;stroke:#fff;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.fab svg.wa{fill:#fff;stroke:none;width:30px;height:30px}
+@media(max-width:900px){.w{padding:0 26px}.sec{padding:100px 0}.band{padding:100px 0}.hero{padding-top:70px}.hero .ph{margin-top:70px;height:56vh}.about .w,.book .w,.loc .w{grid-template-columns:1fr;gap:56px}.row{grid-template-columns:50px 1fr;gap:12px 20px;padding:40px 0}.row p,.row a{grid-column:2}.row:hover{padding-left:0}.work .w{grid-template-columns:1fr 1fr;gap:20px}.work .c3{display:none}.work .b{margin-bottom:0}.rg{grid-template-columns:1fr;gap:56px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.row{transition:none}}
+</style></head><body>
+<header><div class="w"><div class="l"><a href="#sobre">Sobre</a><a href="#servicos">Atendimentos</a></div>
+<div class="brand"><img src="assets/logo.jpg" alt="Logo Casa Brunetto"><span>Casa Brunetto</span></div>
+<div class="r"><a href="#avaliacoes">Avaliações</a><a class="btn" style="padding:12px 26px;color:#fff" href="#agendar">Agendar</a></div></div></header>
+
+<section class="hero"><div class="w"><div class="lbl">Artesãos da beleza · Bombinhas/SC</div>
+<h1>Aqui, o cuidado é profundo e a beleza é <i>única.</i></h1>
+<p>Seu refúgio de beleza e autoestima. Dois irmãos, um propósito: revelar a beleza que já existe em você.</p>
+<a class="btn" href="#agendar">Agendar minha transformação</a></div>
+<div class="ph"><img src="assets/casal.jpg" alt="Jana e Fábio, fundadores da Casa Brunetto, com produtos Ecosmetics" fetchpriority="high"></div></section>
+
+<section class="band"><div class="w"><h2>Eles não criam beleza, <i>eles a revelam.</i> Fazemos da beleza uma linguagem de amor-próprio.</h2></div></section>
+
+<section class="sec about" id="sobre"><div class="w"><div class="pic"><img src="assets/letreiro.jpg" alt="Letreiro da Casa Brunetto" loading="lazy"></div>
+<div><div class="lbl">Sobre nós</div><h2>Dois irmãos, um propósito</h2>
+<p>Entre tesouras afiadas, escovas quentes e olhares atentos, dois irmãos uniram mais do que laços de sangue: uniram sonhos. Nasceu um espaço de celebração da mulher, da sua força e da sua essência.</p>
+<p>Aqui não se trata apenas de estética. Trata-se de empatia, escuta e confiança. Trabalhamos com produtos de alta performance e atendimento personalizado para realçar a sua beleza natural.</p></div></div></section>
+
+<section class="sec srv" id="servicos"><div class="w"><div class="lbl">Atendimentos</div><h2>Feito à mão, <i>com propósito</i></h2>
+<div class="row"><b>01</b><h3>Cabelo e coloração</h3><p>Coloração, loiros, tratamentos, megahair, cortes e escova.</p><a href="#agendar">Agendar</a></div>
+<div class="row"><b>02</b><h3>Maquiagem profissional</h3><p>Técnicas de alta durabilidade e acabamento impecável.</p><a href="#agendar">Agendar</a></div>
+<div class="row"><b>03</b><h3>Penteados</h3><p>Do clássico ao moderno, com fixação perfeita para festas e eventos.</p><a href="#agendar">Agendar</a></div>
+<div class="row"><b>04</b><h3>Esmaltação em gel</h3><p>Brilho espelhado e unhas perfeitas por semanas.</p><a href="#agendar">Agendar</a></div></div></section>
+
+<section class="sec work"><div class="w"><div class="t"><div class="lbl">Nosso trabalho</div><h2>Do primeiro olhar ao resultado final</h2><p>O cuidado começa na recepção e vai até o último detalhe: ondas macias, brilho e cor com profundidade.</p><a class="btn o" href="#agendar">Agendar</a></div>
+<img class="a" src="assets/cabelo.jpg" alt="Cabelo castanho com luzes e ondas macias" loading="lazy"><video class="b" src="assets/video-recepcao.mp4" poster="assets/cabelo.jpg" autoplay muted loop playsinline preload="metadata" aria-label="Momento de recepção no salão"></video><img class="c3 a" src="assets/folhas.jpg" alt="Folhas verdes" loading="lazy"></div></section>
+
+<section class="sec rev" id="avaliacoes"><div class="w"><div class="lbl">Avaliações no Google</div><h2>Quem passou por aqui <i>recomenda</i></h2>
+<div class="rg">
+<figure class="big"><div class="st" aria-label="5 estrelas">★★★★★</div><p>“Escutam o que você deseja, dão a opinião deles, explicam tudo o que estão fazendo e a gente sai de lá realizada!”</p><b>Lú Dal Ri</b></figure>
+<figure><div class="st" aria-label="5 estrelas">★★★★★</div><p>“Desde a recepção até o momento final, tudo foi feito com muito carinho. O ambiente é acolhedor.”</p><b>Mery Helen Spader</b></figure>
+<figure><div class="st" aria-label="5 estrelas">★★★★★</div><p>“O pessoal da Casa Brunetto me salvou! Foram verdadeiros anjos!”</p><b>Sabrina Favaretto</b></figure>
+<figure><div class="st" aria-label="5 estrelas">★★★★★</div><p>“Jana e Fábio são excelentes profissionais, sempre com um atendimento personalizado.”</p><b>Julia Soares</b></figure>
+<figure><div class="st" aria-label="5 estrelas">★★★★★</div><p>“Amei a maquiagem!! Faria novamente mil vezes.”</p><b>Lara Faria</b></figure>
+</div></div></section>
+
+<section class="sec book" id="agendar"><div class="w"><div><div class="lbl" style="color:#f0bfa6">Agendamento</div><h2>Reserve seu <i style="color:#f0bfa6">momento</i></h2><p class="s">Escolha o atendimento e você será levada ao WhatsApp da Casa Brunetto para combinar o horário.</p></div>
+<div><form id="f" novalidate>
+<div><label class="f" for="nome">Nome</label><input type="text" id="nome" autocomplete="name" placeholder="Seu nome completo"><div class="msg" id="e"></div></div>
+<div><label class="f" for="serv">Atendimento de interesse</label><select id="serv"></select></div>
+<div><label class="f">Melhor período</label><div class="pl"><label><input type="radio" name="per" value="manhã" checked><span>Manhã</span></label><label><input type="radio" name="per" value="tarde"><span>Tarde</span></label><label><input type="radio" name="per" value="noite"><span>Noite</span></label></div></div>
+<div><button class="btn" type="submit">Solicitar agendamento</button></div><p class="s" style="margin:0;font-size:.9rem">Ao enviar, copiamos sua mensagem e abrimos o WhatsApp. Basta colar na conversa.</p></form>
+<div class="ok" id="ok"><h3>Quase lá!</h3><p class="s">Sua mensagem foi copiada. Cole na conversa do WhatsApp. Se ele não abriu, toque abaixo.</p><a class="btn" href="https://api.whatsapp.com/message/C5AGKSYL4TGJP1?autoload=1&app_absent=0&utm_source=ig" target="_blank" rel="noopener">Abrir WhatsApp</a></div></div></div></section>
+
+<section class="sec loc" id="local"><div class="w"><div><div class="lbl">Nosso espaço</div><h2>Casa Brunetto em <i>Bombinhas</i></h2>
+<p>Rua Periquito, 224<br>Bombas, Bombinhas · SC</p><p><a href="https://api.whatsapp.com/message/C5AGKSYL4TGJP1?autoload=1&app_absent=0&utm_source=ig" target="_blank" rel="noopener">Chamar no WhatsApp</a><br><a href="https://www.instagram.com/casabrunetto/" target="_blank" rel="noopener">@casabrunetto</a></p>
+<div class="c"><a class="btn" href="https://www.google.com/maps/search/?api=1&query=Rua+Periquito+224+Bombas+Bombinhas+SC" target="_blank" rel="noopener">Ver no mapa</a><a class="btn o" href="https://www.instagram.com/p/DeRsC8PgDss/" target="_blank" rel="noopener">Instagram</a></div></div>
+<div class="pic"><img src="assets/folhas.jpg" alt="Folhas verdes" loading="lazy"></div></div></section>
+
+<footer><img src="assets/logo.jpg" alt="Casa Brunetto"><br>© Casa Brunetto · Artesãos da beleza · Bombinhas/SC</footer>
+<a class="fab" href="https://api.whatsapp.com/message/C5AGKSYL4TGJP1?autoload=1&app_absent=0&utm_source=ig" target="_blank" rel="noopener" aria-label="WhatsApp"><svg class="wa" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
+<a class="fab ig" href="https://www.instagram.com/casabrunetto/" target="_blank" rel="noopener" aria-label="Instagram"><svg class="wa" viewBox="0 0 24 24"><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/></svg></a>
+<script>
+(function(){var WA='https://api.whatsapp.com/message/C5AGKSYL4TGJP1?autoload=1&app_absent=0&utm_source=ig';var S=['Cabelo e coloração','Maquiagem profissional','Penteados','Esmaltação em gel'];
+var f=document.getElementById('f'),sel=document.getElementById('serv'),n=document.getElementById('nome');
+sel.innerHTML='<option value="">Quero uma conversa</option>'+S.map(function(x){return'<option>'+x+'</option>'}).join('');
+f.addEventListener('submit',function(e){e.preventDefault();var v=n.value.trim();
+if(v.length<2){n.classList.add('err');document.getElementById('e').textContent='Informe seu nome.';n.focus();return}
+n.classList.remove('err');document.getElementById('e').textContent='';
+var per=f.querySelector('input[name=per]:checked').value;
+var t='Olá! Sou '+v+(sel.value?' e quero agendar: '+sel.value:' e gostaria de agendar um horário')+'. Melhor período: '+per+'.';
+try{navigator.clipboard.writeText(t)}catch(x){}
+f.style.display='none';document.getElementById('ok').style.display='block';window.open(WA,'_blank','noopener')});
+})();
+</script></body></html>
